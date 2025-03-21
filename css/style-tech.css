@@ -1,0 +1,37 @@
+.title {
+    font-size: 42px;
+  }
+  
+  header {
+    font-family: "Gill Sans";
+    font-size: 32px;
+    padding: 40px;
+  }
+  
+  #navbar {
+    font-family: "Gill Sans";
+  
+  } 
+  
+  .main-section {
+    font-size: 16px;
+    font-family: sans-serif;
+    float: right;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+  
+  code {
+    font-size: 14px;
+  }
+  
+  @media only and screen (min-width: 815px) {
+    body {
+      flex-direction: row;
+    }
+    #navbar {
+      width: 300px;
+      position: fixed;
+      height: 100%;
+    }
+  }
