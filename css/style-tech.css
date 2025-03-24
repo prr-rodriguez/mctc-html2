@@ -5,7 +5,8 @@
   header {
     font-family: "Gill Sans";
     font-size: 32px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   
   #navbar {
