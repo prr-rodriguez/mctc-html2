@@ -5,6 +5,7 @@
   header {
     font-family: "Gill Sans";
     font-size: 32px;
+    margin-left: 32px;
     padding: 40px;
   }
   
@@ -15,7 +16,7 @@
   
     #main-doc {
       position: absolute;
-      margin-left: 310px;
+      margin-left: 240px;
       padding: 20px;
       margin-bottom: 110px;
   }
