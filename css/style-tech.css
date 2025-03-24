@@ -1,70 +1,82 @@
 .title {
-    font-size: 42px;
-    text-align: center;
-  }
+  font-size: 42px;
+  text-align: center;
+}
   
-  header {
-    font-family: "Gill Sans";
-    font-size: 32px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-  }
+header {
+  font-family: "Gill Sans";
+  font-size: 32px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: #787276;
+  font-family: "Gill Sans";
+  font-size: 22px;
+  text-decoration-color: #787276;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+/*#navbar {
+  width: 300px;
+  position: fixed;
+  height: 100%;
+}*/
+
+.ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 42px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 180px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+.main-section {
+  font-size: 16px;
+  font-family: sans-serif;
+  float: right;
+  padding-left: 250px;
+  padding-right: 250px;
+}
   
-  #navbar {
-    font-family: "Gill Sans";
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  
-  } 
+code {
+  font-size: 14px;
+}
 
-  .ul {
-    list-style: none;
+@media only and screen (min-width: 815px) {
+  body {
+    flex-direction: row;
   }
 
-  a {
-    text-decoration: none;
-  }
-
-    #main-doc {
-      position: absolute;
-      margin-left: 180px;
-      padding: 20px;
-      margin-bottom: 110px;
-  }
-
-  .main-section {
-    font-size: 16px;
-    font-family: sans-serif;
-    float: right;
-    padding-left: 250px;
-    padding-right: 250px;
-  }
-  
-  code {
-    font-size: 14px;
-  }
-  
-  /*#navbar {
-    width: 300px;
-    position: fixed;
-    height: 100%;
-  }*/
-
-  #navbar {
-    position: fixed;
-    min-width: 290px;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 100%;
-    border-right: solid;
-    border-color: #787276;
-  }
-
-  @media only and screen (min-width: 815px) {
-    body {
-      flex-direction: row;
-    }
-
-  }
+}
