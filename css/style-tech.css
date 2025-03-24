@@ -11,14 +11,11 @@
   
   #navbar {
     font-family: "Gill Sans";
-  
-  } 
-  
-  ul.no-bullets {
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
+  
+  } 
 
     #main-doc {
       position: absolute;
