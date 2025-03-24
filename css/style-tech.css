@@ -25,6 +25,12 @@
     font-size: 14px;
   }
   
+  #navbar {
+    width: 300px;
+    position: fixed;
+    height: 100%;
+  }
+
   @media only and screen (min-width: 815px) {
     body {
       flex-direction: row;
