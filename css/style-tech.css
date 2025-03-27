@@ -1,6 +1,7 @@
 .title {
   font-size: 42px;
   text-align: center;
+  padding-right: 46px;
 }
   
 header {
@@ -34,7 +35,7 @@ header {
   height: 100%;
 }*/
 
-.ul {
+ul {
   list-style: none;
 }
 
@@ -45,6 +46,11 @@ li {
 
 a {
   text-decoration: none;
+  color: #048C7F;
+}
+
+ul.menu li a:active {
+  color: #048C7F;
 }
 
 a:link {
@@ -66,12 +72,14 @@ a:visited {
   font-size: 16px;
   font-family: sans-serif;
   float: right;
+  display: block;
   padding-left: 250px;
   padding-right: 250px;
 }
   
 code {
   font-size: 14px;
+  background-color: #e0e0e0;
 }
 
 @media only and screen (min-width: 815px) {
