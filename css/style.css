@@ -48,8 +48,8 @@ a {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
   padding-top: 34px;
   padding-bottom: 48px;
-  text-align: left;
-  margin: 0;
 }
