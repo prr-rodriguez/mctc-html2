@@ -31,6 +31,7 @@ color: #3257A8;
 font-family: futura;
 font-weight: bold;
 font-size: 30px;
+padding-bottom: 36px;
 }
 
 .assignment_ {
@@ -38,4 +39,9 @@ color: #3257A8;
 font-family: futura;
 font-weight: bold;
 font-size: 30px;
+padding-bottom: 36px;
+}
+
+a {
+  text-decoration: none;
 }
