@@ -45,3 +45,10 @@ padding-bottom: 36px;
 a {
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin: 0;
+}
