@@ -1,7 +1,7 @@
 .title {
   font-size: 42px;
   text-align: center;
-  padding-right: 46px;
+  padding-right: 47px;
 }
   
 header {
@@ -23,10 +23,8 @@ header {
   font-family: "Gill Sans";
   font-size: 22px;
   text-decoration-color: #787276;
-  list-style-type: none;
   padding: 0;
   margin: 0;
- 
 }
 
 /*#navbar {
@@ -35,8 +33,9 @@ header {
   height: 100%;
 }*/
 
-ul {
-  list-style: none;
+dt {
+  padding-left: 33px;
+  padding-bottom: 32px;
 }
 
 li {
