@@ -1,12 +1,12 @@
 :root {
-    --building-color1: #e68a6ba3;
-    --building-color2: #fec790c4;
-    --building-color3: #f3a381d1;
-    --building-color4: #f8baa0da;
+    --building-color1: #e68a6b93;
+    --building-color2: #fec790bf;
+    --building-color3: #f3a381b4;
+    --building-color4: #f8baa0;
     --window-color1: #fed8b1;
     --window-color2: #fed8b1;
-    --window-color3: #f8baa0c1;
-    --window-color4: #fed8b1f1;
+    --window-color3: #f8baa0;
+    --window-color4: #fed8b1;
   }
   
   * {
@@ -46,7 +46,6 @@
         closest-corner circle at 38% 15%,
         #ffa6 20%,
         #fad685 20%,
-        
         #ffff66 40%,
         #fed8b1 85%
       );
