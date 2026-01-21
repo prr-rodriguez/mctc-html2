@@ -14,7 +14,7 @@ font-size: 18px;
 }
 
 /*.vsc {
-  color: #C83D95;
+  color: #8d6fd1;
 font-family: futura;
 font-weight: bold;
 font-size: 16px;
@@ -22,12 +22,15 @@ padding-left: 40px;
 }*/
 
 .title {
-color: #8d6fd1;
+color: #C83D95;
 font-family: futura;
 font-style: bold;
 font-size: 58px;
 padding-left: 64px;
 }
+
+/*green color: #00A86B*/
+/*og assignment color: #3257A8*/
 
 ._assignment {
 color: #3862BC;
@@ -49,6 +52,14 @@ padding-bottom: 36px;
 
 }
 
+/*._assignment-line {
+  display:inline-block;
+  color: #262a76;
+  font-weight: normal;
+  font-size: 26px;
+  padding-left: 10px;
+}*/
+
 a {
   text-decoration: none;
 }
@@ -61,3 +72,4 @@ ul {
   padding-left: 30px;
   padding-bottom: 48px;
 }
+
